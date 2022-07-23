@@ -1,0 +1,29 @@
+.box1{
+    border: 2px solid orange;
+
+}
+.box2{
+    border: 2px solid crimson;
+}
+
+@media(max-width:580px){
+    /* .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    } */
+    .header{
+        text-align: center;
+    }
+    .footer-text{
+        text-align: center;
+    }
+}
+.footer-text{
+    cursor: pointer;
+}
+.icons{
+    cursor: pointer;
+}
